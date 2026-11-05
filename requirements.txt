@@ -1,0 +1,4 @@
+openpyxl>=3.1.2
+docxtpl>=0.16.7
+PyYAML>=6.0
+pytest>=8.0
