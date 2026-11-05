@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Тесты / покрытие
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Данные: входные xlsx кандидатов и результаты не коммитим
+input/*.xlsx
+input/*.xls
+output/*
+!output/.gitkeep
+
+# Мусор ОС
+.DS_Store
+Thumbs.db
+
+# Локальные данные кандидатов (любое расположение) — не коммитим
+*.xlsx
+*.xls
+!templates/*.docx

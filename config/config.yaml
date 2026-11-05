@@ -1,0 +1,28 @@
+# Общие настройки генератора заявок
+# Значения-заглушки: заменить на реальные перед использованием.
+
+application:
+  # Номер заявки (например, 106 / 110)
+  number_prefix: "Заявка"
+  number_start: 106
+  # Дата составления заявки (ISO: ГГГГ-ММ-ДД) или null — брать текущую дату
+  date: null
+  period:
+    start: null   # например, "2026-11-01"
+    end: null     # например, "2026-12-31"
+
+rates:
+  # Ставки (example)
+  base_rate: 1.0
+  multiplier: 1.0
+
+paths:
+  input_dir: input
+  output_dir: output
+  template: templates/заявка_шаблон.docx
+  reference_dir: reference
+
+parser:
+  sheet_name: null      # null = первый лист
+  header_row: 1
+  max_files: 20
